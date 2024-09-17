@@ -1,0 +1,77 @@
+
+/* Pied de page */
+footer {
+    padding: 10px;
+}
+
+.col-30 {
+    width: 30%;
+    text-align: center;
+}
+li{
+    transition: all 0.50s ease-in-out;
+
+}
+
+li :hover{
+    color: var(--main-color);
+    transition: all 0.50s ease-in-out;
+}
+footer img {
+    padding-top: 20px;
+}
+
+a {
+    color:var(--text-color);
+    text-decoration: none;
+}
+
+.social {
+    justify-content: space-evenly;
+}
+
+i {
+    font-size: 2em;
+}
+.logo{
+    list-style: none;
+    text-decoration: none;
+    font-size :33px;
+    color: var(--text-color);
+    font-weight: 700;
+    transition: all 0.50s ease-in-out;
+}
+.logo:hover{
+    font-size :33px;
+    color: var(--main-color);
+    font-weight: 700;
+    transform: translateY(-5px);
+    transition: all 0.50s ease-in-out;
+}
+
+span{
+    color: var(--main-color);
+    transition: all 0.50s ease-in-out;
+}
+span:hover{
+    transition: all 0.50s ease-in-out;
+    color: var(--text-color);
+}
+
+.copyright {
+    color: var(--main-color);
+    text-align: center;
+    border-top: 1px solid #FFBF46;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.dflex {
+    display: flex;
+}
+
+
+.space-between {
+    justify-content: space-between;
+}
+
