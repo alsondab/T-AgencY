@@ -19,9 +19,9 @@ header
 }
 
 .sticky{
-    padding:8px 17%;
+    padding:2px 17%;
     background: transparent;
-    backdrop-filter: blur(35px);
+    background-color: rgba(255, 255, 255, 0.186);
 }
 
 .logo{
